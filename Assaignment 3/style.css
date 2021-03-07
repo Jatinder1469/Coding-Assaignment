@@ -1,0 +1,28 @@
+body{
+    background-color:black;
+    color:white;
+    font-family: 300 1em "Fira Sans" ,sans-serif;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    min-height: 100vh;
+    display: flex;
+}
+.raise:hover{
+color: white;
+box-shadow: 0 0.5em 0.5em -0.4em;
+transform:translateY(-0.25em);
+color:greenyellow;
+}
+.raise{
+    color:white;
+}
+button{
+    background: none;
+    border: 3px solid;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+    cursor:pointer;
+}
